@@ -1,0 +1,5 @@
+#!/bin/sh
+url=$1
+reader=/usr/bin/readable
+"$reader" "$url" -U | w3m -T text/html -dump | less 
+#"$reader" "$url" -U | w3m -T text/html -o auto_image=TRUE 
