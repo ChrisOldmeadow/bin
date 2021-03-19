@@ -3,6 +3,5 @@
 youtube-dl --extract-audio \
     --audio-format mp3 \
     --embed-thumbnail \
-    --add-metadata \
-    --output "~/Music/%(artist)s/%(album)s/%(title)s.%(ext)s" \
-    $1
+    -o "~/newmusic/%(album)s/%(title)s.%(ext)s" \
+    --add-metadata $1
