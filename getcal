@@ -1,0 +1,8 @@
+#!/usr/bin/sh
+
+#mv ~/Documents/work.ics ~/Documents/work.ics.old
+rm ~/Nextcloud/Calendars/work.ics
+#rm ~/.local/share/khal/calendars/work/*.ics
+wget https://outlook.office365.com/owa/calendar/5be7b96a27b74d58a96e6a5e000bb0e8@hmri.org.au/953ddbee49ef4dd0807b45843a6e6a337712147656678122309/calendar.ics -O ~/Nextcloud/Calendars/work.ics
+#khal import --batch -r ~/Documents/work.ics
+
